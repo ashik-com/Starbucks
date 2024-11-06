@@ -1,0 +1,507 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* H E A D E R   L E F T   S E C T I O N*/
+
+.header{
+    width: 100%;
+    height: 75px;
+    display:flex;    
+}
+
+.header-left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.header-logo{
+    height: 40px;
+    margin-left: 130px;    
+}
+
+.header-menu-bar{
+    display: flex;
+    margin-left: 50px;
+    padding: 0;    
+}
+
+.header-bar-items{
+    list-style: none;
+    margin-right: 60px;
+}
+
+.item{
+    
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+/* H E A D E R    R I G H T   S E C T I O N */
+
+.header-right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    
+    width: 270px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-img{
+    padding-left: 15px;
+}
+
+.search{
+    height: 28px;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding-left: 10px;    
+}
+
+.account-logo{
+    margin-left: 120px;
+    height: 35px;
+}
+
+
+/*  M A I N   B O D Y */
+
+
+.know-more-btn-div{
+    width: 100%;
+    height: 50px;
+    background-color: #0e382c;
+    text-align: end;
+    padding-top: 25px;    
+}
+
+.know-more-btn-green{
+    font-weight: bold;
+    height: 30px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #0e382c;
+    color: #fff;
+    border-color: #fff;
+    border: 1px solid #fff;
+    margin-right: 200px;    
+}
+
+.menu-container{
+    width: 100%;
+    height: 600px;    
+}
+
+.slide-img{
+    background-color: #44967f;
+    width: 85%;
+    height: 37%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-image: url('Images/Dashboards_Banner_Bg_Web_d273add871.png');
+    display: grid;
+    grid-template-columns: 14% 66% 20% ;
+}
+
+.bag-img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.bag{
+    height: 245px;
+    position: relative;
+    left: 10px;    
+}
+
+.intro-text{
+  color: #fff;
+}
+
+.intro{
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+}
+
+.gift-heading{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.intro2{
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+
+.starting-from{
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    margin-top: 15px;
+}
+
+.amount1{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+
+.btn-know-more{
+    height: 45px;
+    width: 170px;
+    border-radius: 35px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.heading{
+    margin-left: 7.5%;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    color: #1e3932;
+}
+
+.menu-items{
+    width: 85%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items-img{
+    text-align: center;    
+}
+
+.img-1{
+    height: 110px;
+    border-radius: 55px;
+}
+
+.item-name{
+    font-weight: 650;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/*  R E C O M M E N D S    S E C T I O N S  */
+
+
+.recommendes-section{
+    width: 100%;
+    height: 300px;
+    background: #edebe9;
+}
+
+.heading2{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #1e3932;
+    margin-left: 7.5%;
+}
+
+.view-menu{
+    text-decoration: none;
+    color: #00754a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text2{
+    display: grid;
+    grid-template-columns: 93% 7%;    
+}
+
+.grey-leaf-div{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.grey-leaf{
+    height: 80px;
+}
+
+.recomended{
+    height: 200px;
+    display: flex;
+    padding-left: 115px;
+}
+
+.recommended-list{
+    width:425px ;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.r-list-img{
+    width: 100%;
+    height: 65%;
+    display: flex;
+}
+
+.r-list-text{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    padding-top: 3px;
+}
+
+.placeholder-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin: 13px 20px; 
+}
+
+.p-holder-img-dec{
+    margin-top: 13px;
+}
+
+.p-img-name{
+    font-weight: bold;
+    margin: 0;
+}
+
+.p-img-cal{
+    margin: 0;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.amount{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 19px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+
+.float-amount{
+    font-size: 13px;    
+}
+
+.add-item{
+    margin-left: 220px;
+    height: 35px;
+    width: 95px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5px;
+    background-color: #00754a;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/*   L R A R N   A B O U T   C O F F E E   */
+
+
+.about-coffee{
+    width: 100%;
+    height: 500px;
+    background: #edebe9;
+    margin-top: 55px;
+}
+
+.about-coffee-text{
+    width: 88%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abt-coff-txt1{
+    font-weight: bold;
+    font-size: 25px;
+    color: #1e3932;
+}
+
+.about-coffee-img{
+    height: 390px;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url('Images/coffee-2306471_1280.jpg') ;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;
+}
+
+.coffee-culture{
+    color: #096;
+    background-color: #e6edeb;
+    border-radius: 5px;
+    font-size: 10px;
+    border: none;
+    margin: 20px 35px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    padding-top: 2px;
+    opacity: 0.9;
+}
+
+.abt-coff-para1{
+    font-weight: bold;
+    font-size: 28px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    margin-top: 140px;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.abt-coff-para2{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.learn-more-btn{
+    margin-left: 35px;
+    width: 175px;
+    height: 33px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 40px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+
+/*  F O O T E R  */
+
+
+.footer{
+    width: 100%;
+    height: 800px;
+    background-color: #0e382c;
+    margin-top: 35px;
+}
+
+.footer-container{
+    width: 85%;
+    height: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-element{
+    margin-top: 110px;
+    line-height: 30px;
+}
+
+.footer-heading{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 14px;
+}
+
+.app-store-img{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.line-break{
+    width: 85%;
+    height: 40px;
+    margin: auto;
+    margin-top: 60px;
+    border-top: 1px solid #fff;
+    opacity: 0.7;   
+}
+
+.footer-end{
+    display: flex;
+    margin-left:115px ;
+    width: 85%;
+}
+
+.end-element{
+    margin-right: 20px;
+    border-right: 1px solid #fff;
+    padding-right: 20px;    
+    width: 100px;
+    height: 22px;
+    opacity: 0.7;
+}
+
+.end-element1{
+    margin-right: 20px;    
+    padding-right: 20px;
+    width: 100px;
+    height: 22px;
+    opacity: 0.7;
+}
+
+.end-text{
+    font-size: 12px;
+    margin: 0;
+    color: #fff;    
+}
+
+.copy-right-text{
+    color:#fff;
+}
+
+.copy-right{
+    text-align: end;    
+    width: 60%;
+}
+
+.copy-right-text{
+    margin: 0;
+    font-size: 10px;
+    opacity: 0.7;    
+}
